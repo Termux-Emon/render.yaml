@@ -1,0 +1,11 @@
+# Exported from Render on 2024-06-12T04:48:20Z
+services:
+- type: web
+  name: status-api
+  runtime: node
+  repo: https://github.com/Termux-Emon/status-api
+  plan: free
+  region: oregon
+  buildCommand: yarn install
+  startCommand: yarn start
+version: "1"
